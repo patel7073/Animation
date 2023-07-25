@@ -1,0 +1,28 @@
+.box{
+ height: 200px;
+ width: 200px;
+ Background-color: red;
+ position:relative;
+ animation-name: colchan;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+
+  @keyframes colchan{
+ 0%{background-color:red; left:0px; top:0px;
+ transform:rotate(60deg);}
+ 20%{background-color:blue; left: 200px; top: 0px;
+ transform:rotate(120deg);}
+ 40%{background-color:pink; left: 200px; top: 200px;
+ transform:rotate(180deg);}
+ 60%{background-color:pink; left: 0px; top: 200px;
+ transform:rotate(240deg);
+ }
+ 80%{background-color:aqua; left: 100px; top: 100px;
+ transform:rotate(300deg);}
+100%{background-color:red; left: 0px; top: 0px;
+transform:rotate(360deg);} 
+ }
